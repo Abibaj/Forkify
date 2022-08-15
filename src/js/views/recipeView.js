@@ -1,5 +1,5 @@
 import icons from 'url:../../img/icons.svg';
-import { Fraction } from 'fractional';
+import { Fraction } from 'fractional.js';
 import View from './views';
 
 class recipeView extends View {
@@ -78,11 +78,6 @@ class recipeView extends View {
           </div>
         </div>
 
-        <div class="recipe__user-generated ${this._data.key ? '' : 'hidden'}">
-          <svg>
-            <use href="${icons}#icon-user"></use>
-          </svg>
-        </div>
         <button class="btn--round btn--bookmark">
           <svg class="">
             <use href="${icons}#icon-bookmark${
