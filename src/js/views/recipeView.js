@@ -1,5 +1,5 @@
 import icons from 'url:../../img/icons.svg';
-import fractional from 'fractional';
+// import fractional from 'fractional';
 import View from './views';
 import { fraction } from 'mathjs';
 
